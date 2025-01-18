@@ -11,46 +11,56 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
+  title: "What We Offer:",
   desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Comprehensive GBP Audits:",
+      desc: "Analyze and enhance your profile’s accuracy and completeness.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Content Optimization:",
+      desc: "Add and edit descriptions, categories, and more with targeted keywords.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Review Monitoring & Responses:",
+      desc: "Manage customer reviews and craft thoughtful, keyword-rich replies.",
+      icon: <CursorArrowRaysIcon />,
+    },
+    {
+      title: "Ongoing Profile Management:",
+      desc: "Regular updates to keep your profile engaging and relevant.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Services",
+  desc: "Optimize Your Google Business Profile with LocalSoc.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "GBP Auditing",
+      desc: "We conduct a detailed analysis of your existing Google Business Profile to identify areas for improvement. Our audit ensures your profile is accurate, complete, and optimized to attract local customers.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Content Optimization",
+      desc: "Our team enhances your profile’s descriptions, categories, and attributes by integrating targeted keywords. This helps boost your visibility in local searches and ensures your profile stands out.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Review Monitoring & Responses",
+      desc: "Stay on top of your customer feedback with our review monitoring service. We craft professional and engaging replies that include relevant keywords to enhance your reputation and improve engagement. ",
+      icon: <SunIcon />,
+    },
+    {
+      title: "Ongoing Profile Management",
+      desc: "Keep your GBP updated and engaging with regular posts, new photos, and timely updates. We ensure your profile remains active and attractive to potential customers.",
       icon: <SunIcon />,
     },
   ],
